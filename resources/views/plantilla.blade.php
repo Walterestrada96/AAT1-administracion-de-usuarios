@@ -12,7 +12,7 @@
     <title>Administracion de Usuarios</title>
 </head>
 
-<body>
+<body style="background-color:aliceblue">
     <div>
         <h1 class="text-center p-5">Control de Usuarios</h1>
     </div>
@@ -21,13 +21,13 @@
     @endif
     <div class="container-fluid p-5 table-responsive">
         <div>
-            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#Modalcrearusuario">Crear
+            <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#Modalcrearusuario">Crear
                 Usuario</button>
             <div class="modal fade" id="Modalcrearusuario" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header">
+                        <div class="modal-header" style="background-color:aquamarine">
                             <h1 class="modal-title fs-5" id="exampleModalLabel">Registrar datos</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Close"></button>
@@ -106,7 +106,7 @@
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <div class="modal-header">
+                                    <div class="modal-header" style="background-color: aquamarine">
                                         <h1 class="modal-title fs-5" id="exampleModalLabel">Modificar datos</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
